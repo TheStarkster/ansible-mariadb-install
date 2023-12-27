@@ -7,5 +7,5 @@ repo_software_package:
   - software-properties-common 
   - dirmngr
 key_url: "https://mariadb.org/mariadb_release_signing_key.asc"
-repo_deb: deb [arch=amd64,arm64,ppc64el] https://mirror.klaus-uwe.me/mariadb/repo/10.4/ubuntu
+repo_deb: deb [arch=amd64,arm64,ppc64el] https://someserver.mariadb.org/repo/10.5/ubuntu jammy main
 mariadb_socket: /run/mysqld/mysqld.sock
